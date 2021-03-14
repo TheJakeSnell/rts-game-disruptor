@@ -4,7 +4,7 @@ RTS Game Disruptor is a simple prototype designed to allow manual, semi-automate
 
 ## How to run the prototype
 
-The simplest way to run the prototype is to use the pre-built executable under the **"dist\prototype\\"** directory. Double-clicking the **prototype.exe** on windows will run the prototype provided that [Java](https://www.java.com/en/download/manual.jsp) is installed on the machine.
+The simplest way to run the prototype is to use the pre-built executable under the **dist/prototype** directory. Double-clicking the **prototype.exe** on windows will run the prototype provided that [Java](https://www.java.com/en/download/manual.jsp) is installed on the machine.
 
 ## How to use the prototype
 
@@ -27,7 +27,7 @@ The **Explore** button shows a UI that allows a user to select one or two game v
 
 ![Damage vs Attack Time](damage_vs_attack_time.png)
 
-The hall of fame and fitness graph of the evolution process can be found in the  **"experiments\\"** directory of either the prototype folder or the code base folder depending on how the tool was run.
+The hall of fame and fitness graph of the evolution process can be found in the  **experiments** directory of either the prototype folder or the code base folder depending on how the tool was run.
 
 ## How to build and make changes
 
@@ -58,7 +58,7 @@ The python code requires that there be a MicroRTS.jar, even_map.xml and red_map.
 
 All of the java code for the GUI and simulation is contained in a single file called **GameDisruptor.java**
 
-In order to make changes to the GUI or the simulation, the [MicroRTS](https://github.com/santiontanon/microrts) framework is required. The GameDisruptor.java file must be placed under the **"src\tests\\"** directory. Then follow the instructions on the MicroRTS github page to build a new MicroRTS.jar file and copy it into the directory with the python main.py
+In order to make changes to the GUI or the simulation, the [MicroRTS](https://github.com/santiontanon/microrts) framework is required. The GameDisruptor.java file must be placed under the **src/tests** directory. Then follow the instructions on the MicroRTS github page to build a new MicroRTS.jar file and copy it into the directory with the python main.py
 
 To view the changes made, follow the instructions above to run the python **main.py** file.
 
@@ -72,4 +72,4 @@ This will start packaging up the python and java code into an executable that do
 
 Choose yes (y) when the command prompts you whether you would like to clean out the folder of the existing prototype.
 
-The final executable can be found in the **"dist/prototype"** directory.
+The final executable can be found in the **dist/prototype** directory.
