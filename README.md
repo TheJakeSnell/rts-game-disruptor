@@ -58,7 +58,7 @@ The python code requires that there be a MicroRTS.jar, even_map.xml and red_map.
 
 All of the java code for the GUI and simulation is contained in a single file called **GameDisruptor.java**
 
-In order to make changes to the GUI or the simulation, the [MicroRTS](https://github.com/santiontanon/microrts) framework is required. The GameDisruptor.java file must be placed under the **src/tests** directory. Then follow the instructions on the MicroRTS github page to build a new MicroRTS.jar file and copy it into the directory with the python main.py
+In order to make changes to the GUI or the simulation, the [MicroRTS](https://github.com/santiontanon/microrts) framework is required. The GameDisruptor.java file must be placed under the **src/tests** directory in the MicroRTS project source code. Then follow the instructions on the MicroRTS github page to build a new MicroRTS.jar file and copy it into the directory with the python main.py
 
 To view the changes made, follow the instructions above to run the python **main.py** file.
 
